@@ -2,7 +2,7 @@
   "name"           : "custom-pdfjs",
   "author"         : "Dissident",
   "description"    : "Node.js implementation of Mozilla's pdf.js",
-  "version"        : "0.1",
+  "version"        : "0.1.0",
   "contributors"   : [
   ],
   "keywords"       : [],
