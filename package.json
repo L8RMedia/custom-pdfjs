@@ -1,0 +1,30 @@
+{
+  "name"           : "custom-pdfjs",
+  "author"         : "Dissident",
+  "description"    : "Node.js implementation of Mozilla's pdf.js",
+  "version"        : "0.1",
+  "contributors"   : [
+  ],
+  "keywords"       : [],
+  "scripts"        : {
+    "build": "node ./build/build.js",
+    "test" : "node ./test/server.js",
+    "postinstall": "npm run build"
+  },
+  "main"           : "./release/web/viewer.html",
+  "repository"     : {
+    "type": "git",
+    "url" : "git://github.com/L8RMedia/custom-pdfjs.git"
+  },
+  "dependencies": {
+    "pdf.js": "mozilla/pdf.js#v1.5.188",
+    "pdfjs-dist": "=v1.5.188",
+    "requirejs": "^2.3.2"
+  },
+  "devDependencies": {
+    "shelljs"   : "^0.8"
+  },
+  "engines"        : {
+    "node": ">=4.1.2"
+  }
+}
